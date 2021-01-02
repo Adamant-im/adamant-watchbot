@@ -1,0 +1,48 @@
+{
+  "name": "adamant-watchbot",
+  "version": "1.0.0",
+  "description": "ADAMANT Watchbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "adm",
+    "adamant",
+    "blockchain",
+    "messenger",
+    "bot",
+    "notification",
+    "transaction",
+    "fee",
+    "recoup",
+    "compensate",
+    "vote",
+    "voting",
+    "dpos",
+    "fair dpos",
+    "crypto",
+    "cryptocurrency"
+  ],
+  "author": "Aleksei Lebedev <devs@adamant.im> (https://adamant.im)",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "socket.io-client": "^3.0.4",
+    "adamant-api": "^0.5.3",
+    "express": "^4.17.1",
+    "jsonminify": "^0.4.1",
+    "mongodb": "^3.6.3",
+    "request": "^2.88.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adamant-im/adamant-watchbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adamant-im/adamant-watchbot/issues"
+  },
+  "homepage": "https://github.com/Adamant-im/adamant-watchbot#readme"
+}
